@@ -40,7 +40,6 @@ const Home = (props) => {
         />
         <div className="home-nav">
           <NavigationLinks1 rootClassName="rootClassName14"></NavigationLinks1>
-          <NavigationLinks1 rootClassName="rootClassName31"></NavigationLinks1>
         </div>
         <div data-role="BurgerMenu" className="home-burger-menu">
           <svg viewBox="0 0 1024 1024" className="home-icon">
