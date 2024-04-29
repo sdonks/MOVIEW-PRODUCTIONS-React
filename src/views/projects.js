@@ -133,8 +133,8 @@ const Projects = (props) => {
                 <GalleryCard2
                   title="Nike Sports"
                   imageSrc="https://i.imgur.com/sMMwV5O.png"
-                  rootClassName="rootClassName2"
                   description="Brand image for Winners Open 2021"
+                  rootClassName="rootClassName2"
                 ></GalleryCard2>
               </div>
               <div className="projects-container05">
@@ -148,11 +148,11 @@ const Projects = (props) => {
             </div>
             <div className="projects-container06">
               <GalleryCard2
+                title="DOMINO Concert 2022"
                 imageAlt="Video Showreel"
                 imageSrc="https://i.imgur.com/3AOdLhK.png"
-                rootClassName="rootClassName"
-                title="DOMINO Concert 2022"
                 description=" "
+                rootClassName="rootClassName"
               ></GalleryCard2>
             </div>
           </div>
@@ -160,83 +160,83 @@ const Projects = (props) => {
             <GalleryCard2
               title="UNICEF Pop-up"
               imageSrc="https://i.imgur.com/k6nSMGv.png"
-              rootClassName="rootClassName4"
               description=" "
+              rootClassName="rootClassName4"
             ></GalleryCard2>
           </div>
         </div>
         <div className="projects-container08">
           <GalleryCard3
-            imageSrc="https://i.imgur.com/5bqIht1.png"
-            rootClassName="rootClassName"
-            subtitle=" "
             title="TROOPER"
+            imageSrc="https://i.imgur.com/5bqIht1.png"
+            subtitle=" "
+            rootClassName="rootClassName"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/4BrF08T.jpg"
-            rootClassName="rootClassName1"
-            subtitle=" "
             title="UNTOLD 2023"
+            imageSrc="https://i.imgur.com/4BrF08T.jpg"
+            subtitle=" "
+            rootClassName="rootClassName1"
           ></GalleryCard3>
           <GalleryCard3
+            title="EVBOX"
             imageSrc="https://i.imgur.com/U0iMoHI.png"
+            subtitle=" "
             rootClassName="rootClassName3"
-            subtitle=" "
-            title="EVBOX"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/nwljUJT.png"
-            rootClassName="rootClassName2"
-            subtitle=" "
             title="BT ARENA CLUJ"
+            imageSrc="https://i.imgur.com/nwljUJT.png"
+            subtitle=" "
+            rootClassName="rootClassName2"
           ></GalleryCard3>
           <GalleryCard3
+            title="Sports Festival CLUJ"
             imageSrc="https://i.imgur.com/wziRSqS.png"
+            subtitle=" "
             rootClassName="rootClassName4"
-            subtitle=" "
-            title="Sports Festival CLUJ"
           ></GalleryCard3>
           <GalleryCard3
+            title="Sports Festival CLUJ"
             imageSrc="https://i.imgur.com/80v7A8z.png"
+            subtitle=" "
             rootClassName="rootClassName5"
-            subtitle=" "
-            title="Sports Festival CLUJ"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/XXqHN0a.png"
-            rootClassName="rootClassName6"
-            subtitle=" "
             title="Digital Crusade"
+            imageSrc="https://i.imgur.com/XXqHN0a.png"
+            subtitle=" "
+            rootClassName="rootClassName6"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/cWTcc6b.png"
-            rootClassName="rootClassName7"
-            subtitle=" "
             title="Graphic Design"
+            imageSrc="https://i.imgur.com/cWTcc6b.png"
+            subtitle=" "
+            rootClassName="rootClassName7"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/12UExrQ.jpg"
-            rootClassName="rootClassName8"
-            subtitle=" "
             title="ELEC x UNTOLD"
+            imageSrc="https://i.imgur.com/12UExrQ.jpg"
+            subtitle=" "
+            rootClassName="rootClassName8"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/MOXybTo.png"
-            rootClassName="rootClassName9"
-            subtitle=" "
             title="EVBOX"
+            imageSrc="https://i.imgur.com/MOXybTo.png"
+            subtitle=" "
+            rootClassName="rootClassName9"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/ef9VPsT.png"
-            rootClassName="rootClassName10"
-            subtitle=" "
             title="CFR Cluj"
+            imageSrc="https://i.imgur.com/ef9VPsT.png"
+            subtitle=" "
+            rootClassName="rootClassName10"
           ></GalleryCard3>
           <GalleryCard3
-            imageSrc="https://i.imgur.com/AiXGr0N.png"
-            rootClassName="rootClassName11"
-            subtitle=" "
             title="UBB - FTF"
+            imageSrc="https://i.imgur.com/AiXGr0N.png"
+            subtitle=" "
+            rootClassName="rootClassName11"
           ></GalleryCard3>
         </div>
       </div>
