@@ -99,14 +99,6 @@
   font-size: 3rem;
   text-align: center;
 }
-.projects-text001 {
-  color: var(--dl-color-gray-700);
-  margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  padding-left: var(--dl-space-space-threeunits);
-  margin-bottom: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-threeunits);
-}
 .projects-gallery1 {
   width: 1501px;
   height: 1000px;
@@ -589,12 +581,12 @@
   font-style: normal;
   font-weight: 400;
 }
-.projects-text013 {
+.projects-text06 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
 }
-.projects-text014 {
+.projects-text07 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -612,7 +604,7 @@
   max-width: 600px;
   line-height: 36px;
 }
-.projects-text016 {
+.projects-text09 {
   color: #7c7c80;
   font-size: 24px;
   line-height: 36px;
@@ -1059,7 +1051,7 @@
   padding-right: var(--dl-space-space-fiveunits);
   padding-bottom: var(--dl-space-space-threeunits);
 }
-.projects-text024 {
+.projects-text17 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -1085,7 +1077,7 @@
   justify-content: space-between;
   border-top-width: 1px;
 }
-.projects-text026 {
+.projects-text19 {
   color: #000000;
   font-size: 14px;
   line-height: 21px;
@@ -1100,45 +1092,45 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.projects-text027 {
+.projects-text20 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
-.projects-text028 {
+.projects-text21 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
-.projects-text030 {
+.projects-text23 {
   color: #7c7c80;
   line-height: 24px;
 }
-.projects-text032 {
+.projects-text25 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
-.projects-text033 {
+.projects-text26 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
-.projects-text035 {
+.projects-text28 {
   color: #7c7c80;
   line-height: 24px;
 }
-.projects-text038 {
+.projects-text31 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
-.projects-text039 {
+.projects-text32 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
-.projects-text041 {
+.projects-text34 {
   color: #7c7c80;
   line-height: 24px;
 }
@@ -1188,16 +1180,16 @@
   max-width: 560px;
   line-height: 36px;
 }
-.projects-text045 {
+.projects-text38 {
   color: #7c7c80;
   font-size: 24px;
   line-height: 36px;
 }
-.projects-text047 {
+.projects-text40 {
   font-style: normal;
   font-weight: 100;
 }
-.projects-text048 {
+.projects-text41 {
   color: #7c7c80;
   font-size: 24px;
   line-height: 36px;
@@ -1217,14 +1209,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.projects-text051 {
+.projects-text44 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 5%;
   text-transform: uppercase;
 }
-.projects-text052 {
+.projects-text45 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-family: Playfair Display;
@@ -1411,7 +1403,7 @@
   width: 12px;
   height: 12px;
 }
-.projects-text053 {
+.projects-text46 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -1436,7 +1428,7 @@
   width: 12px;
   height: 12px;
 }
-.projects-text054 {
+.projects-text47 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -1461,7 +1453,7 @@
   width: 12px;
   height: 12px;
 }
-.projects-text055 {
+.projects-text48 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -1486,7 +1478,7 @@
   width: 12px;
   height: 12px;
 }
-.projects-text056 {
+.projects-text49 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -1505,14 +1497,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.projects-text057 {
+.projects-text50 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 5%;
   text-transform: uppercase;
 }
-.projects-text058 {
+.projects-text51 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-family: Playfair Display;
@@ -1590,7 +1582,7 @@
   text-align: center;
   font-weight: 500;
 }
-.projects-text060 {
+.projects-text53 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -1655,7 +1647,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text068 {
+.projects-text61 {
   color: rgba(255, 255, 255, 0);
   width: 100%;
   font-style: normal;
@@ -1682,7 +1674,7 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.projects-text069 {
+.projects-text62 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1692,7 +1684,7 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   text-transform: uppercase;
 }
-.projects-text070 {
+.projects-text63 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1702,7 +1694,7 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   text-transform: uppercase;
 }
-.projects-text071 {
+.projects-text64 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1724,7 +1716,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text072 {
+.projects-text65 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1763,7 +1755,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text073 {
+.projects-text66 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1802,7 +1794,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text074 {
+.projects-text67 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1829,7 +1821,7 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.projects-text075 {
+.projects-text68 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1848,7 +1840,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text076 {
+.projects-text69 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1875,14 +1867,14 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.projects-text077 {
+.projects-text70 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
   text-align: center;
   line-height: 32px;
 }
-.projects-text078 {
+.projects-text71 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1901,7 +1893,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text079 {
+.projects-text72 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1928,7 +1920,7 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.projects-text080 {
+.projects-text73 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1947,7 +1939,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text081 {
+.projects-text74 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1986,7 +1978,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.projects-text082 {
+.projects-text75 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -2013,7 +2005,7 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.projects-text083 {
+.projects-text76 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -2063,7 +2055,7 @@
   max-width: 600px;
   line-height: 36px;
 }
-.projects-text087 {
+.projects-text80 {
   color: #7c7c80;
   font-size: 24px;
   line-height: 36px;
@@ -2366,7 +2358,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.projects-text094 {
+.projects-text87 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -2608,7 +2600,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.projects-text096 {
+.projects-text89 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -2676,7 +2668,7 @@
 .projects-navlink04:hover {
   opacity: .5;
 }
-.projects-text097:hover {
+.projects-text90:hover {
   opacity: .5;
 }
 .projects-column3 {
@@ -2842,7 +2834,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.projects-text099 {
+.projects-text92 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
@@ -2865,9 +2857,6 @@
   display: contents;
 }
 @media(max-width: 991px) {
-  .projects-text001 {
-    text-align: center;
-  }
   .projects-container07 {
     width: 100%;
   }
@@ -3124,7 +3113,7 @@
   .projects-testimonial {
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .projects-text052 {
+  .projects-text45 {
     max-width: 560px;
   }
   .projects-from {
@@ -3158,7 +3147,7 @@
   .projects-headers {
     flex: 0;
   }
-  .projects-text068 {
+  .projects-text61 {
     color: rgba(255, 255, 255, 0);
     width: 0px;
     font-style: normal;
@@ -3176,7 +3165,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .projects-text072 {
+  .projects-text65 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -3194,7 +3183,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .projects-text073 {
+  .projects-text66 {
     width: 100%;
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
@@ -3213,7 +3202,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .projects-text074 {
+  .projects-text67 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -3231,7 +3220,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .projects-text076 {
+  .projects-text69 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -3249,7 +3238,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .projects-text079 {
+  .projects-text72 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -3267,7 +3256,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .projects-text081 {
+  .projects-text74 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -3285,7 +3274,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .projects-text082 {
+  .projects-text75 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -3482,10 +3471,6 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .projects-text001 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
   .projects-gallery1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -3517,19 +3502,19 @@
     line-height: 23px;
     margin-right: 0px;
   }
-  .projects-text008 {
+  .projects-text01 {
     font-size: 18px;
     max-width: 90%;
     line-height: 23px;
     margin-right: 0px;
   }
-  .projects-text010 {
+  .projects-text03 {
     font-size: 18px;
     max-width: 90%;
     line-height: 23px;
     margin-right: 0px;
   }
-  .projects-text011 {
+  .projects-text04 {
     font-size: 18px;
     max-width: 90%;
     line-height: 23px;
@@ -3633,11 +3618,11 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text015 {
+  .projects-text08 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text017 {
+  .projects-text10 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -3803,27 +3788,27 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text044 {
+  .projects-text37 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text046 {
+  .projects-text39 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text047 {
+  .projects-text40 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text049 {
+  .projects-text42 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text050 {
+  .projects-text43 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text051 {
+  .projects-text44 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -3872,7 +3857,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text057 {
+  .projects-text50 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -3918,59 +3903,59 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text069 {
+  .projects-text62 {
     font-size: 12px;
     line-height: 14px;
   }
-  .projects-text070 {
+  .projects-text63 {
     font-size: 12px;
     line-height: 14px;
   }
-  .projects-text071 {
+  .projects-text64 {
     font-size: 12px;
     line-height: 14px;
   }
-  .projects-text072 {
+  .projects-text65 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text073 {
+  .projects-text66 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text074 {
+  .projects-text67 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text075 {
+  .projects-text68 {
     line-height: 21px;
   }
-  .projects-text076 {
+  .projects-text69 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text077 {
+  .projects-text70 {
     line-height: 21px;
   }
-  .projects-text078 {
+  .projects-text71 {
     line-height: 21px;
   }
-  .projects-text079 {
+  .projects-text72 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text080 {
+  .projects-text73 {
     line-height: 21px;
   }
-  .projects-text081 {
+  .projects-text74 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text082 {
+  .projects-text75 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text083 {
+  .projects-text76 {
     line-height: 21px;
   }
   .projects-data {
@@ -3986,15 +3971,15 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text086 {
+  .projects-text79 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text088 {
+  .projects-text81 {
     font-size: 16px;
     line-height: 24px;
   }
-  .projects-text089 {
+  .projects-text82 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -4267,17 +4252,17 @@
   .projects-image10 {
     height: 400px;
   }
-  .projects-text026 {
+  .projects-text19 {
     font-size: 12px;
     line-height: 18px;
   }
-  .projects-text027 {
+  .projects-text20 {
     font-size: 18px;
   }
-  .projects-text032 {
+  .projects-text25 {
     font-size: 18px;
   }
-  .projects-text038 {
+  .projects-text31 {
     font-size: 18px;
   }
   .projects-heading11 {

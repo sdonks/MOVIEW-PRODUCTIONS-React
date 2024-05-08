@@ -88,44 +88,6 @@ const Projects = (props) => {
       </header>
       <div className="projects-gallery">
         <h1 className="projects-text">Some of our projects</h1>
-        <span className="projects-text001">
-          <span>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              volutpat turpis.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </span>
-          <br></br>
-          <span>
-            <span>
-              Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </span>
-        </span>
         <div className="projects-gallery1">
           <div className="projects-container02">
             <div className="projects-container03">
@@ -293,12 +255,12 @@ const Projects = (props) => {
       </div>
       <section className="projects-note">
         <h2 className="projects-caption">
-          <span className="projects-text008">
+          <span className="projects-text01">
             Get noticed with &quot;Scroll Stopping&quot; Video Content!
           </span>
           <br></br>
-          <br className="projects-text010"></br>
-          <span className="projects-text011">
+          <br className="projects-text03"></br>
+          <span className="projects-text04">
             Our diverse team has created engaging content for brands all over
             the world.
           </span>
@@ -473,8 +435,8 @@ new BlazeSlider(el, {
                 }}
               />
             </span>
-            <span className="projects-text013">something</span>
-            <span className="projects-text014">
+            <span className="projects-text06">something</span>
+            <span className="projects-text07">
               .
               <span
                 dangerouslySetInnerHTML={{
@@ -486,12 +448,12 @@ new BlazeSlider(el, {
         </div>
         <div className="projects-selector">
           <p className="projects-caption09">
-            <span className="projects-text015">
+            <span className="projects-text08">
               The highest status people in human history are those that asked
               for nothing and gave everything.
             </span>
-            <br className="projects-text016"></br>
-            <br className="projects-text017"></br>
+            <br className="projects-text09"></br>
+            <br className="projects-text10"></br>
           </p>
           <div className="projects-slide-titles">
             <div className="slide-title">
@@ -720,23 +682,23 @@ new BlazeSlider(el, {
             }}
           />
         </span>
-        <span className="projects-text024">production process.</span>
+        <span className="projects-text17">production process.</span>
         <br></br>
       </h2>
       <section className="projects-objectives">
         <div className="projects-content09">
-          <span className="projects-text026">Objectives</span>
+          <span className="projects-text19">Objectives</span>
           <div className="projects-objectives-list">
             <div className="objective">
-              <h3 className="projects-text027">Dream it</h3>
-              <p className="projects-text028">
+              <h3 className="projects-text20">Dream it</h3>
+              <p className="projects-text21">
                 <span>
                   It all begins with an idea. Whatever it is, the way you tell
                   your story online can make all the difference to your brand
                   image and sales. We work with businesses to create the perfect
                   content for their audience to enhance their business.
                 </span>
-                <br className="projects-text030"></br>
+                <br className="projects-text23"></br>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
@@ -747,8 +709,8 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective projects-objective1">
-              <h3 className="projects-text032">Capture it</h3>
-              <p className="projects-text033">
+              <h3 className="projects-text25">Capture it</h3>
+              <p className="projects-text26">
                 <span>
                   Using the latest high-quality camera equipment our team will
                   deliver the smoothest production possible, giving you one less
@@ -756,7 +718,7 @@ new BlazeSlider(el, {
                   professionals will create the best possible content, on time
                   and on budget.
                 </span>
-                <br className="projects-text035"></br>
+                <br className="projects-text28"></br>
                 <br></br>
                 <span>
                   <span
@@ -768,15 +730,15 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective projects-objective2">
-              <h3 className="projects-text038">Create it</h3>
-              <p className="projects-text039">
+              <h3 className="projects-text31">Create it</h3>
+              <p className="projects-text32">
                 <span>
                   At our studio, we have an in-house editing team ready to work
                   on your project as soon as we finish filming. Meaning that
                   100% of projects are delivered on time, most in as little as 3
                   days.
                 </span>
-                <br className="projects-text041"></br>
+                <br className="projects-text34"></br>
                 <br></br>
                 <span>
                   <span
@@ -799,27 +761,27 @@ new BlazeSlider(el, {
               </h2>
             </div>
             <p className="projects-caption19">
-              <span className="projects-text044">
+              <span className="projects-text37">
                 Investing in a new video for your business can be a big
                 decision, so to give you confidence, we created our satisfaction
                 guarantee. It&apos;s simple and takes the stress away. No
                 catches, If you don&apos;t like the video and we can&apos;t
                 create a version you&apos;re happy with, you don&apos;t pay.
               </span>
-              <br className="projects-text045"></br>
-              <br className="projects-text046"></br>
-              <span className="projects-text047">
+              <br className="projects-text38"></br>
+              <br className="projects-text39"></br>
+              <span className="projects-text40">
                 *refund amount is noted on the contract.
               </span>
-              <br className="projects-text048"></br>
-              <br className="projects-text049"></br>
-              <br className="projects-text050"></br>
+              <br className="projects-text41"></br>
+              <br className="projects-text42"></br>
+              <br className="projects-text43"></br>
             </p>
           </div>
           <div className="projects-testimonial">
             <div className="projects-content11">
-              <span className="projects-text051">Testimonial</span>
-              <p className="projects-text052">
+              <span className="projects-text44">Testimonial</span>
+              <p className="projects-text45">
                 &quot;He knows all the right angles to shoot a precious moment!
                 Hard-working man, a professional artist who puts passion in his
                 work!&quot;
@@ -888,7 +850,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="projects-text053">
+                <span className="projects-text46">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
@@ -898,7 +860,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="projects-text054">
+                <span className="projects-text47">
                   Lorem ipsum dolor sit amet
                 </span>
               </div>
@@ -908,7 +870,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="projects-text055">
+                <span className="projects-text48">
                   Voluptate velit esse cillum dolore eu fugiat nulla
                 </span>
               </div>
@@ -918,7 +880,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="projects-text056">
+                <span className="projects-text49">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                 </span>
               </div>
@@ -926,8 +888,8 @@ new BlazeSlider(el, {
           </div>
           <div className="projects-testimonial1">
             <div className="projects-content13">
-              <span className="projects-text057">Testimonial</span>
-              <p className="projects-text058">
+              <span className="projects-text50">Testimonial</span>
+              <p className="projects-text51">
                 &quot;A pleasant collaboration from all points of view! Positive
                 work attitude and creativity are the strong points! It has
                 everything that is technically necessary  for a quality
@@ -959,7 +921,7 @@ new BlazeSlider(el, {
           <div className="projects-header18">
             <h2 className="projects-heading13">
               <span>Outstanding </span>
-              <span className="projects-text060">visual content!</span>
+              <span className="projects-text53">visual content!</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -994,19 +956,19 @@ new BlazeSlider(el, {
         <div className="projects-table">
           <div className="projects-row">
             <div className="projects-headers">
-              <span className="projects-text068">Placeholder</span>
+              <span className="projects-text61">Placeholder</span>
             </div>
             <div className="projects-plans">
               <div className="projects-row01">
-                <span className="projects-text069">TOGHTR</span>
-                <span className="projects-text070">AGENCY</span>
-                <span className="projects-text071">FRELLANCE</span>
+                <span className="projects-text62">TOGHTR</span>
+                <span className="projects-text63">AGENCY</span>
+                <span className="projects-text64">FRELLANCE</span>
               </div>
             </div>
           </div>
           <div className="projects-row02">
             <div className="projects-headers1">
-              <span className="projects-text072">
+              <span className="projects-text65">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
@@ -1026,7 +988,7 @@ new BlazeSlider(el, {
           </div>
           <div className="projects-row04">
             <div className="projects-headers2">
-              <span className="projects-text073">
+              <span className="projects-text66">
                 Lorem ipsum dolor sit amet
               </span>
             </div>
@@ -1046,14 +1008,14 @@ new BlazeSlider(el, {
           </div>
           <div className="projects-row06">
             <div className="projects-headers3">
-              <span className="projects-text074">
+              <span className="projects-text67">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="projects-plans3">
               <div className="projects-row07">
                 <div className="value">
-                  <span className="projects-text075">Custom</span>
+                  <span className="projects-text68">Custom</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -1066,17 +1028,17 @@ new BlazeSlider(el, {
           </div>
           <div className="projects-row08">
             <div className="projects-headers4">
-              <span className="projects-text076">
+              <span className="projects-text69">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="projects-plans4">
               <div className="projects-row09">
                 <div className="value">
-                  <span className="projects-text077">Unlimited</span>
+                  <span className="projects-text70">Unlimited</span>
                 </div>
                 <div className="value">
-                  <span className="projects-text078">Limited</span>
+                  <span className="projects-text71">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -1086,7 +1048,7 @@ new BlazeSlider(el, {
           </div>
           <div className="projects-row10">
             <div className="projects-headers5">
-              <span className="projects-text079">
+              <span className="projects-text72">
                 Lorem ipsum dolor sit amet
               </span>
             </div>
@@ -1099,14 +1061,14 @@ new BlazeSlider(el, {
                   <Line></Line>
                 </div>
                 <div className="value">
-                  <span className="projects-text080">Limited</span>
+                  <span className="projects-text73">Limited</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="projects-row12">
             <div className="projects-headers6">
-              <span className="projects-text081">
+              <span className="projects-text74">
                 Lorem ipsum dolor sit amet
               </span>
             </div>
@@ -1126,7 +1088,7 @@ new BlazeSlider(el, {
           </div>
           <div className="projects-row14">
             <div className="projects-headers7">
-              <span className="projects-text082">
+              <span className="projects-text75">
                 Lorem ipsum dolor sit amet
               </span>
             </div>
@@ -1136,7 +1098,7 @@ new BlazeSlider(el, {
                   <Check></Check>
                 </div>
                 <div className="value">
-                  <span className="projects-text083">Limited</span>
+                  <span className="projects-text76">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -1159,16 +1121,16 @@ new BlazeSlider(el, {
             </div>
           </div>
           <p className="projects-caption22">
-            <span className="projects-text086">
+            <span className="projects-text79">
               We make videos for all sorts of businesses for all sorts of
               reasons, from sharing a successful customer story, to an authentic
               employee experience or a new product development. We have filmed
               for clients in their corporate offices, homes, factories, events
               and others.
             </span>
-            <br className="projects-text087"></br>
-            <br className="projects-text088"></br>
-            <span className="projects-text089">
+            <br className="projects-text80"></br>
+            <br className="projects-text81"></br>
+            <span className="projects-text82">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -1408,7 +1370,7 @@ new BlazeSlider(el, {
         <div className="projects-header26">
           <h2 className="projects-heading16">
             <span>Frequently asked </span>
-            <span className="projects-text094">questions</span>
+            <span className="projects-text87">questions</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -1516,7 +1478,7 @@ new BlazeSlider(el, {
                   className="projects-image15"
                 />
               </Link>
-              <span className="projects-text096">
+              <span className="projects-text89">
                 Available world-wide, at any time.
               </span>
             </div>
@@ -1534,7 +1496,7 @@ new BlazeSlider(el, {
                     How
                   </Link>
                   <Link to="/" className="projects-navlink04">
-                    <span className="projects-text097">Why</span>
+                    <span className="projects-text90">Why</span>
                     <br></br>
                   </Link>
                 </div>
@@ -1588,7 +1550,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="projects-bottom">
-            <span className="projects-text099">
+            <span className="projects-text92">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
             <a
