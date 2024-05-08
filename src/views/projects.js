@@ -165,7 +165,41 @@ const Projects = (props) => {
             ></GalleryCard2>
           </div>
         </div>
-        <div className="projects-container08">
+        <div className="projects-features">
+          <div className="projects-container08">
+            <div className="projects-container09">
+              <div className="projects-container10">
+                <Script
+                  html={`<iframe width="560" height="315" src="https://www.youtube.com/embed/Kyp2JDxVh28?si=BrThtGYLDStjphMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`}
+                ></Script>
+              </div>
+            </div>
+            <div className="projects-container11">
+              <div className="projects-container12">
+                <Script
+                  html={`<iframe width="560" height="315" src="https://www.youtube.com/embed/KduolyA6M6E?si=5gRxr1jF8eHo8RgZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`}
+                ></Script>
+              </div>
+            </div>
+          </div>
+          <div className="projects-container13">
+            <div className="projects-container14">
+              <div className="projects-container15">
+                <Script
+                  html={`<iframe width="560" height="315" src="https://www.youtube.com/embed/CkS_wjAHMZg?si=p2GVjrQA3Aei7sPa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`}
+                ></Script>
+              </div>
+            </div>
+            <div className="projects-container16">
+              <div className="projects-container17">
+                <Script
+                  html={`<iframe width="560" height="315" src="https://www.youtube.com/embed/cl4MdL2bTY8?si=67z8K0vgNp_hsgjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`}
+                ></Script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects-container18">
           <GalleryCard3
             title="TROOPER"
             imageSrc="https://i.imgur.com/5bqIht1.png"
@@ -410,7 +444,7 @@ const Projects = (props) => {
           </div>
         </div>
         <div>
-          <div className="projects-container10">
+          <div className="projects-container20">
             <Script
               html={`<script>
 const el = document.querySelector('.blaze-slider')
@@ -628,7 +662,7 @@ new BlazeSlider(el, {
           </div>
         </div>
         <div>
-          <div className="projects-container12">
+          <div className="projects-container22">
             <Script
               html={`<script>
 const el = document.querySelector('.blaze-slider')
@@ -1221,7 +1255,7 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name15"></IconContainer>
             </div>
             <div>
-              <div className="projects-container14">
+              <div className="projects-container24">
                 <Script
                   html={`<script>
  /*
@@ -1568,7 +1602,7 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div>
-        <div className="projects-container16">
+        <div className="projects-container26">
           <Script
             html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
