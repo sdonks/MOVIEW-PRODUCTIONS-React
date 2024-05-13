@@ -19,8 +19,12 @@
   justify-content: space-between;
   background-color: #000000;
 }
+.projects-navlink {
+  display: contents;
+}
 .projects-image {
   height: 2rem;
+  text-decoration: none;
 }
 .projects-nav {
   display: flex;
@@ -2557,7 +2561,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.projects-navlink {
+.projects-navlink01 {
   display: contents;
 }
 .projects-image14 {
@@ -2593,16 +2597,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.projects-navlink01 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.projects-navlink01:hover {
-  opacity: .5;
-}
 .projects-navlink02 {
   cursor: pointer;
   font-size: 16px;
@@ -2633,6 +2627,16 @@
 .projects-navlink04:hover {
   opacity: .5;
 }
+.projects-navlink05 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.projects-navlink05:hover {
+  opacity: .5;
+}
 .projects-text90:hover {
   opacity: .5;
 }
@@ -2653,16 +2657,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.projects-navlink05 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.projects-navlink05:hover {
-  opacity: .5;
 }
 .projects-navlink06 {
   cursor: pointer;
@@ -2724,6 +2718,16 @@
 .projects-navlink11:hover {
   opacity: .5;
 }
+.projects-navlink12 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.projects-navlink12:hover {
+  opacity: .5;
+}
 .projects-column4 {
   gap: var(--dl-space-space-threeunits);
   color: white;
@@ -2741,16 +2745,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.projects-navlink12 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.projects-navlink12:hover {
-  opacity: .5;
 }
 .projects-navlink13 {
   cursor: pointer;
@@ -2790,6 +2784,16 @@
   text-decoration: none;
 }
 .projects-navlink16:hover {
+  opacity: .5;
+}
+.projects-navlink17 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.projects-navlink17:hover {
   opacity: .5;
 }
 .projects-bottom {

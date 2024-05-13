@@ -34,11 +34,13 @@ const Home = (props) => {
         />
       </Helmet>
       <header data-role="Header" className="home-header">
-        <img
-          alt="logo"
-          src="https://i.imgur.com/h00gRM7.png"
-          className="home-image"
-        />
+        <Link to="/" className="home-navlink">
+          <img
+            alt="logo"
+            src="https://i.imgur.com/h00gRM7.png"
+            className="home-image"
+          />
+        </Link>
         <div className="home-nav">
           <NavigationLinks1 rootClassName="rootClassName14"></NavigationLinks1>
         </div>
@@ -130,7 +132,7 @@ const Home = (props) => {
             to="/contact"
             id="contact"
             name="Let's talk"
-            className="home-navlink button"
+            className="home-navlink01 button"
           >
             <span>
               <span>Let&apos;s talk!</span>
@@ -1253,7 +1255,7 @@ new BlazeSlider(el, {
         <div className="home-content27">
           <div className="home-main">
             <div className="home-branding1">
-              <Link to="/" className="home-navlink01">
+              <Link to="/" className="home-navlink02">
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
@@ -1268,16 +1270,16 @@ new BlazeSlider(el, {
               <div className="home-column2">
                 <span className="home-header31">Company</span>
                 <div className="home-list">
-                  <Link to="/" className="home-navlink02">
+                  <Link to="/" className="home-navlink03">
                     About
                   </Link>
-                  <Link to="/" className="home-navlink03">
+                  <Link to="/" className="home-navlink04">
                     Services
                   </Link>
-                  <Link to="/" className="home-navlink04">
+                  <Link to="/" className="home-navlink05">
                     How
                   </Link>
-                  <Link to="/" className="home-navlink05">
+                  <Link to="/" className="home-navlink06">
                     <span className="home-text105">Why</span>
                     <br></br>
                   </Link>
@@ -1286,25 +1288,25 @@ new BlazeSlider(el, {
               <div className="home-column3">
                 <span className="home-header32">Extern</span>
                 <div className="home-list1">
-                  <Link to="/" className="home-navlink06">
+                  <Link to="/" className="home-navlink07">
                     News
                   </Link>
-                  <Link to="/" className="home-navlink07">
+                  <Link to="/" className="home-navlink08">
                     Articles
                   </Link>
-                  <Link to="/" className="home-navlink08">
+                  <Link to="/" className="home-navlink09">
                     Blog
                   </Link>
-                  <Link to="/" className="home-navlink09">
+                  <Link to="/" className="home-navlink10">
                     Privacy
                   </Link>
-                  <Link to="/" className="home-navlink10">
+                  <Link to="/" className="home-navlink11">
                     Terms
                   </Link>
-                  <Link to="/" className="home-navlink11">
+                  <Link to="/" className="home-navlink12">
                     Legal
                   </Link>
-                  <Link to="/" className="home-navlink12">
+                  <Link to="/" className="home-navlink13">
                     Press
                   </Link>
                 </div>
@@ -1312,19 +1314,19 @@ new BlazeSlider(el, {
               <div className="home-column4">
                 <span className="home-header33">Social</span>
                 <div className="home-list2">
-                  <Link to="/" className="home-navlink13">
+                  <Link to="/" className="home-navlink14">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="home-navlink14">
+                  <Link to="/" className="home-navlink15">
                     Twitter
                   </Link>
-                  <Link to="/" className="home-navlink15">
+                  <Link to="/" className="home-navlink16">
                     Instagram
                   </Link>
-                  <Link to="/" className="home-navlink16">
+                  <Link to="/" className="home-navlink17">
                     Facebook
                   </Link>
-                  <Link to="/" className="home-navlink17">
+                  <Link to="/" className="home-navlink18">
                     TikTok
                   </Link>
                 </div>

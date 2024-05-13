@@ -19,8 +19,12 @@
   justify-content: space-between;
   background-color: #000000;
 }
+.contact-navlink {
+  display: contents;
+}
 .contact-image {
   height: 2rem;
+  text-decoration: none;
 }
 .contact-nav {
   display: flex;
@@ -2307,7 +2311,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-navlink {
+.contact-navlink01 {
   display: contents;
 }
 .contact-image11 {
@@ -2343,16 +2347,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-navlink01 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.contact-navlink01:hover {
-  opacity: .5;
-}
 .contact-navlink02 {
   cursor: pointer;
   font-size: 16px;
@@ -2383,6 +2377,16 @@
 .contact-navlink04:hover {
   opacity: .5;
 }
+.contact-navlink05 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.contact-navlink05:hover {
+  opacity: .5;
+}
 .contact-text098:hover {
   opacity: .5;
 }
@@ -2403,16 +2407,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.contact-navlink05 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.contact-navlink05:hover {
-  opacity: .5;
 }
 .contact-navlink06 {
   cursor: pointer;
@@ -2474,6 +2468,16 @@
 .contact-navlink11:hover {
   opacity: .5;
 }
+.contact-navlink12 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.contact-navlink12:hover {
+  opacity: .5;
+}
 .contact-column4 {
   gap: var(--dl-space-space-threeunits);
   color: white;
@@ -2491,16 +2495,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.contact-navlink12 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.contact-navlink12:hover {
-  opacity: .5;
 }
 .contact-navlink13 {
   cursor: pointer;
@@ -2540,6 +2534,16 @@
   text-decoration: none;
 }
 .contact-navlink16:hover {
+  opacity: .5;
+}
+.contact-navlink17 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.contact-navlink17:hover {
   opacity: .5;
 }
 .contact-bottom {

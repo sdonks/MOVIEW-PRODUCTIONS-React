@@ -36,11 +36,13 @@ const Projects = (props) => {
         />
       </Helmet>
       <header data-role="Header" className="projects-header">
-        <img
-          alt="logo"
-          src="https://i.imgur.com/h00gRM7.png"
-          className="projects-image"
-        />
+        <Link to="/" className="projects-navlink">
+          <img
+            alt="logo"
+            src="https://i.imgur.com/h00gRM7.png"
+            className="projects-image"
+          />
+        </Link>
         <div className="projects-nav">
           <NavigationLinks1 rootClassName="rootClassName33"></NavigationLinks1>
         </div>
@@ -1440,7 +1442,7 @@ new BlazeSlider(el, {
         <div className="projects-content31">
           <div className="projects-main">
             <div className="projects-branding">
-              <Link to="/" className="projects-navlink">
+              <Link to="/" className="projects-navlink01">
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
@@ -1455,16 +1457,16 @@ new BlazeSlider(el, {
               <div className="projects-column2">
                 <span className="projects-header33">Company</span>
                 <div className="projects-list">
-                  <Link to="/" className="projects-navlink01">
+                  <Link to="/" className="projects-navlink02">
                     About
                   </Link>
-                  <Link to="/" className="projects-navlink02">
+                  <Link to="/" className="projects-navlink03">
                     Services
                   </Link>
-                  <Link to="/" className="projects-navlink03">
+                  <Link to="/" className="projects-navlink04">
                     How
                   </Link>
-                  <Link to="/" className="projects-navlink04">
+                  <Link to="/" className="projects-navlink05">
                     <span className="projects-text90">Why</span>
                     <br></br>
                   </Link>
@@ -1473,25 +1475,25 @@ new BlazeSlider(el, {
               <div className="projects-column3">
                 <span className="projects-header34">Extern</span>
                 <div className="projects-list1">
-                  <Link to="/" className="projects-navlink05">
+                  <Link to="/" className="projects-navlink06">
                     News
                   </Link>
-                  <Link to="/" className="projects-navlink06">
+                  <Link to="/" className="projects-navlink07">
                     Articles
                   </Link>
-                  <Link to="/" className="projects-navlink07">
+                  <Link to="/" className="projects-navlink08">
                     Blog
                   </Link>
-                  <Link to="/" className="projects-navlink08">
+                  <Link to="/" className="projects-navlink09">
                     Privacy
                   </Link>
-                  <Link to="/" className="projects-navlink09">
+                  <Link to="/" className="projects-navlink10">
                     Terms
                   </Link>
-                  <Link to="/" className="projects-navlink10">
+                  <Link to="/" className="projects-navlink11">
                     Legal
                   </Link>
-                  <Link to="/" className="projects-navlink11">
+                  <Link to="/" className="projects-navlink12">
                     Press
                   </Link>
                 </div>
@@ -1499,19 +1501,19 @@ new BlazeSlider(el, {
               <div className="projects-column4">
                 <span className="projects-header35">Social</span>
                 <div className="projects-list2">
-                  <Link to="/" className="projects-navlink12">
+                  <Link to="/" className="projects-navlink13">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="projects-navlink13">
+                  <Link to="/" className="projects-navlink14">
                     Twitter
                   </Link>
-                  <Link to="/" className="projects-navlink14">
+                  <Link to="/" className="projects-navlink15">
                     Instagram
                   </Link>
-                  <Link to="/" className="projects-navlink15">
+                  <Link to="/" className="projects-navlink16">
                     Facebook
                   </Link>
-                  <Link to="/" className="projects-navlink16">
+                  <Link to="/" className="projects-navlink17">
                     TikTok
                   </Link>
                 </div>

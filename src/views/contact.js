@@ -34,11 +34,13 @@ const Contact = (props) => {
         />
       </Helmet>
       <header data-role="Header" className="contact-header">
-        <img
-          alt="logo"
-          src="https://i.imgur.com/h00gRM7.png"
-          className="contact-image"
-        />
+        <Link to="/" className="contact-navlink">
+          <img
+            alt="logo"
+            src="https://i.imgur.com/h00gRM7.png"
+            className="contact-image"
+          />
+        </Link>
         <div className="contact-nav">
           <NavigationLinks1 rootClassName="rootClassName32"></NavigationLinks1>
         </div>
@@ -1231,7 +1233,7 @@ new BlazeSlider(el, {
         <div className="contact-content27">
           <div className="contact-main">
             <div className="contact-branding1">
-              <Link to="/" className="contact-navlink">
+              <Link to="/" className="contact-navlink01">
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
@@ -1246,16 +1248,16 @@ new BlazeSlider(el, {
               <div className="contact-column2">
                 <span className="contact-header30">Company</span>
                 <div className="contact-list">
-                  <Link to="/" className="contact-navlink01">
+                  <Link to="/" className="contact-navlink02">
                     About
                   </Link>
-                  <Link to="/" className="contact-navlink02">
+                  <Link to="/" className="contact-navlink03">
                     Services
                   </Link>
-                  <Link to="/" className="contact-navlink03">
+                  <Link to="/" className="contact-navlink04">
                     How
                   </Link>
-                  <Link to="/" className="contact-navlink04">
+                  <Link to="/" className="contact-navlink05">
                     <span className="contact-text098">Why</span>
                     <br></br>
                   </Link>
@@ -1264,25 +1266,25 @@ new BlazeSlider(el, {
               <div className="contact-column3">
                 <span className="contact-header31">Extern</span>
                 <div className="contact-list1">
-                  <Link to="/" className="contact-navlink05">
+                  <Link to="/" className="contact-navlink06">
                     News
                   </Link>
-                  <Link to="/" className="contact-navlink06">
+                  <Link to="/" className="contact-navlink07">
                     Articles
                   </Link>
-                  <Link to="/" className="contact-navlink07">
+                  <Link to="/" className="contact-navlink08">
                     Blog
                   </Link>
-                  <Link to="/" className="contact-navlink08">
+                  <Link to="/" className="contact-navlink09">
                     Privacy
                   </Link>
-                  <Link to="/" className="contact-navlink09">
+                  <Link to="/" className="contact-navlink10">
                     Terms
                   </Link>
-                  <Link to="/" className="contact-navlink10">
+                  <Link to="/" className="contact-navlink11">
                     Legal
                   </Link>
-                  <Link to="/" className="contact-navlink11">
+                  <Link to="/" className="contact-navlink12">
                     Press
                   </Link>
                 </div>
@@ -1290,19 +1292,19 @@ new BlazeSlider(el, {
               <div className="contact-column4">
                 <span className="contact-header32">Social</span>
                 <div className="contact-list2">
-                  <Link to="/" className="contact-navlink12">
+                  <Link to="/" className="contact-navlink13">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="contact-navlink13">
+                  <Link to="/" className="contact-navlink14">
                     Twitter
                   </Link>
-                  <Link to="/" className="contact-navlink14">
+                  <Link to="/" className="contact-navlink15">
                     Instagram
                   </Link>
-                  <Link to="/" className="contact-navlink15">
+                  <Link to="/" className="contact-navlink16">
                     Facebook
                   </Link>
-                  <Link to="/" className="contact-navlink16">
+                  <Link to="/" className="contact-navlink17">
                     TikTok
                   </Link>
                 </div>
