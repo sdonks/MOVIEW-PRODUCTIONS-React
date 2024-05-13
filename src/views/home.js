@@ -138,6 +138,32 @@ const Home = (props) => {
             </div>
           </div>
         </header>
+        <div className="home-hero-content">
+          <div className="home-header-container">
+            <div className="home-header02">
+              <h1 className="home-heading">
+                <span>Unleashing the power of </span>
+                <span className="home-text001">film.</span>
+                <br></br>
+              </h1>
+            </div>
+            <p className="home-caption">
+              Crafting Compelling Stories, Captivating Audiences and Delivering
+              Measurable Results.
+            </p>
+          </div>
+          <Link
+            to="/contact"
+            id="contact"
+            name="Let's talk"
+            className="home-navlink button"
+          >
+            <span>
+              <span>Let&apos;s talk!</span>
+              <br></br>
+            </span>
+          </Link>
+        </div>
         <header data-thq="thq-navbar" className="home-navbar">
           <img
             alt="image"
@@ -168,11 +194,11 @@ const Home = (props) => {
                 data-role="Nav"
                 className="home-nav5"
               >
-                <span className="home-text">About</span>
-                <span className="home-text001">Features</span>
-                <span className="home-text002">Pricing</span>
-                <span className="home-text003">Team</span>
-                <span className="home-text004">Blog</span>
+                <span className="home-text006">About</span>
+                <span className="home-text007">Features</span>
+                <span className="home-text008">Pricing</span>
+                <span className="home-text009">Team</span>
+                <span className="home-text010">Blog</span>
               </nav>
               <div className="home-container04">
                 <button className="home-login1 button">Login</button>
@@ -192,32 +218,6 @@ const Home = (props) => {
             </div>
           </div>
         </header>
-        <div className="home-hero-content">
-          <div className="home-header-container">
-            <div className="home-header02">
-              <h1 className="home-heading">
-                <span>Unleashing the power of </span>
-                <span className="home-text006">film.</span>
-                <br></br>
-              </h1>
-            </div>
-            <p className="home-caption">
-              Crafting Compelling Stories, Captivating Audiences and Delivering
-              Measurable Results.
-            </p>
-          </div>
-          <Link
-            to="/contact"
-            id="contact"
-            name="Let's talk"
-            className="home-navlink button"
-          >
-            <span>
-              <span>Let&apos;s talk!</span>
-              <br></br>
-            </span>
-          </Link>
-        </div>
       </section>
       <section className="home-note">
         <h2 className="home-caption01">

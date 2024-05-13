@@ -198,6 +198,50 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+.home-hero-content {
+  gap: var(--dl-space-space-fiveunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-header-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-header02 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-heading {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  max-width: 790px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text001 {
+  font-style: italic;
+  font-family: Playfair Display;
+}
+.home-caption {
+  color: rgb(255, 255, 255);
+  width: 931px;
+  font-size: 24px;
+  max-width: 600px;
+  line-height: 36px;
+}
+.home-navlink {
+  text-decoration: none;
+}
 .home-navbar {
   width: 100%;
   display: none;
@@ -283,19 +327,19 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text {
+.home-text006 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text001 {
+.home-text007 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text002 {
+.home-text008 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text003 {
+.home-text009 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text004 {
+.home-text010 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-container04 {
@@ -326,50 +370,6 @@
 .home-icon27 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-}
-.home-hero-content {
-  gap: var(--dl-space-space-fiveunits);
-  flex: 1;
-  width: 100%;
-  display: flex;
-  z-index: 100;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.home-header-container {
-  gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.home-header02 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-heading {
-  color: rgb(255, 255, 255);
-  font-size: 100px;
-  max-width: 790px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-text006 {
-  font-style: italic;
-  font-family: Playfair Display;
-}
-.home-caption {
-  color: rgb(255, 255, 255);
-  width: 931px;
-  font-size: 24px;
-  max-width: 600px;
-  line-height: 36px;
-}
-.home-navlink {
-  text-decoration: none;
 }
 .home-note {
   width: 100%;
@@ -3224,9 +3224,6 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-image {
-    display: none;
-  }
   .home-nav {
     display: none;
   }
@@ -3234,6 +3231,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .home-icon {
+    fill: #D9D9D9;
+    width: 58px;
+    height: 30px;
   }
   .home-header01 {
     padding-left: var(--dl-space-space-twounits);
@@ -3250,12 +3252,12 @@
     align-items: center;
     justify-content: center;
   }
-  .home-burger-menu2 {
-    display: flex;
-  }
   .home-heading {
     font-size: 60px;
     padding-right: 205px;
+  }
+  .home-burger-menu2 {
+    display: flex;
   }
   .home-note {
     align-items: flex-start;
@@ -3927,6 +3929,14 @@
   .home-header {
     padding: var(--dl-space-space-unit);
   }
+  .home-burger-menu {
+    width: 68px;
+    height: 30px;
+  }
+  .home-icon {
+    width: 43px;
+    height: 25px;
+  }
   .home-mobile-menu {
     padding: 16px;
   }
@@ -3935,6 +3945,19 @@
   }
   .home-mobile-menu1 {
     padding: 16px;
+  }
+  .home-hero-content {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .home-heading {
+    font-size: 36px;
+  }
+  .home-caption {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .home-navlink {
+    text-align: center;
   }
   .home-branding {
     padding-top: var(--dl-space-space-unit);
@@ -3950,19 +3973,6 @@
   }
   .home-mobile-menu2 {
     padding: 16px;
-  }
-  .home-hero-content {
-    gap: var(--dl-space-space-threeunits);
-  }
-  .home-heading {
-    font-size: 36px;
-  }
-  .home-caption {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .home-navlink {
-    text-align: center;
   }
   .home-heading01 {
     font-size: 36px;
