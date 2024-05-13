@@ -87,7 +87,6 @@
 }
 @media(max-width: 479px) {
   .mobile-menu-mobile-menu {
-    display: none;
     padding: 16px;
   }
 }

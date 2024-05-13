@@ -57,14 +57,14 @@ const MobileMenu = (props) => {
 }
 
 MobileMenu.defaultProps = {
-  imageSrc: 'https://i.imgur.com/h00gRM7.png',
   imageAlt: 'logo',
+  imageSrc: 'https://i.imgur.com/h00gRM7.png',
   rootClassName: '',
 }
 
 MobileMenu.propTypes = {
-  imageSrc: PropTypes.string,
   imageAlt: PropTypes.string,
+  imageSrc: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
