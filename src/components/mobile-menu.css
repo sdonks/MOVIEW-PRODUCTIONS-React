@@ -52,6 +52,21 @@
   left: 0px;
   position: absolute;
 }
+.mobile-menu-root-class-name1 {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.mobile-menu-root-class-name2 {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.mobile-menu-root-class-name3 {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
 @media(max-width: 767px) {
   .mobile-menu-mobile-menu {
     display: flex;
@@ -59,6 +74,9 @@
   }
   .mobile-menu-menu-close {
     background-color: #D9D9D9;
+  }
+  .mobile-menu-root-class-name3 {
+    display: none;
   }
 }
 @media(max-width: 479px) {
