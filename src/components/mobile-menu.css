@@ -75,6 +75,9 @@
   .mobile-menu-menu-close {
     background-color: #D9D9D9;
   }
+  .mobile-menu-root-class-name {
+    display: none;
+  }
   .mobile-menu-root-class-name3 {
     display: none;
   }

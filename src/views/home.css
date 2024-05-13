@@ -3205,6 +3205,9 @@
     font-size: 60px;
     padding-right: 205px;
   }
+  .home-caption {
+    width: 493px;
+  }
   .home-burger-menu2 {
     display: flex;
   }
@@ -3886,6 +3889,12 @@
     width: 43px;
     height: 25px;
   }
+  .home-image01 {
+    top: 0px;
+    left: 0px;
+    width: 458px;
+    position: absolute;
+  }
   .home-header01 {
     padding: var(--dl-space-space-unit);
   }
@@ -3899,6 +3908,7 @@
     font-size: 36px;
   }
   .home-caption {
+    width: 403px;
     font-size: 16px;
     line-height: 24px;
   }
