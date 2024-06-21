@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import NavigationLinks1 from '../components/navigation-links1'
+import Navbar from '../components/navbar'
 import Check from '../components/check'
 import Line from '../components/line'
 import IconContainer from '../components/icon-container'
@@ -32,58 +32,7 @@ const Services = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c9633093-04cb-4556-8e46-92b7b60210b3/9bb2f2ab-731f-46a4-b829-5ff2c4bc55bc?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
-      <header data-role="Header" className="services-header">
-        <img
-          alt="logo"
-          src="https://i.imgur.com/h00gRM7.png"
-          className="services-image"
-        />
-        <div className="services-nav">
-          <NavigationLinks1 rootClassName="rootClassName11"></NavigationLinks1>
-        </div>
-        <div data-role="BurgerMenu" className="services-burger-menu">
-          <svg viewBox="0 0 1024 1024" className="services-icon">
-            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-          </svg>
-        </div>
-        <div data-role="MobileMenu" className="services-mobile-menu">
-          <div className="services-nav1">
-            <div className="services-container01">
-              <img
-                alt="image"
-                src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                className="services-image01"
-              />
-              <div data-role="CloseMobileMenu" className="services-menu-close">
-                <svg viewBox="0 0 1024 1024" className="services-icon02">
-                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                </svg>
-              </div>
-            </div>
-            <NavigationLinks1 rootClassName="rootClassName24"></NavigationLinks1>
-          </div>
-          <div>
-            <svg
-              viewBox="0 0 950.8571428571428 1024"
-              className="services-icon04"
-            >
-              <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-            </svg>
-            <svg
-              viewBox="0 0 877.7142857142857 1024"
-              className="services-icon06"
-            >
-              <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-            </svg>
-            <svg
-              viewBox="0 0 602.2582857142856 1024"
-              className="services-icon08"
-            >
-              <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
-            </svg>
-          </div>
-        </div>
-      </header>
+      <Navbar></Navbar>
       <section className="services-hero">
         <video
           loop
@@ -100,25 +49,21 @@ const Services = (props) => {
             src="https://i.imgur.com/h00gRM7.png"
             className="services-branding"
           />
-          <div data-thq="thq-burger-menu" className="services-burger-menu1">
+          <div data-thq="thq-burger-menu" className="services-burger-menu">
             <div className="services-hamburger">
-              <img
-                alt="image"
-                src="/hamburger.svg"
-                className="services-icon10"
-              />
+              <img alt="image" src="/hamburger.svg" className="services-icon" />
             </div>
           </div>
-          <div data-thq="thq-mobile-menu" className="services-mobile-menu1">
+          <div data-thq="thq-mobile-menu" className="services-mobile-menu">
             <div
               data-thq="thq-mobile-menu-nav"
               data-role="Nav"
-              className="services-nav2"
+              className="services-nav"
             >
-              <div className="services-container02">
-                <img alt="image" src="/logo.svg" className="services-image02" />
-                <div data-thq="thq-close-menu" className="services-menu-close1">
-                  <svg viewBox="0 0 1024 1024" className="services-icon11">
+              <div className="services-container1">
+                <img alt="image" src="/logo.svg" className="services-image" />
+                <div data-thq="thq-close-menu" className="services-menu-close">
+                  <svg viewBox="0 0 1024 1024" className="services-icon01">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
@@ -126,7 +71,7 @@ const Services = (props) => {
               <nav
                 data-thq="thq-mobile-menu-nav-links"
                 data-role="Nav"
-                className="services-nav3"
+                className="services-nav1"
               >
                 <span className="services-text">About</span>
                 <span className="services-text001">Features</span>
@@ -134,27 +79,27 @@ const Services = (props) => {
                 <span className="services-text003">Team</span>
                 <span className="services-text004">Blog</span>
               </nav>
-              <div className="services-container03">
+              <div className="services-container2">
                 <button className="services-login button">Login</button>
                 <button className="button">Register</button>
               </div>
             </div>
-            <div className="services-icon-group1">
+            <div className="services-icon-group">
               <svg
                 viewBox="0 0 950.8571428571428 1024"
-                className="services-icon13"
+                className="services-icon03"
               >
                 <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
               </svg>
               <svg
                 viewBox="0 0 877.7142857142857 1024"
-                className="services-icon15"
+                className="services-icon05"
               >
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
               </svg>
               <svg
                 viewBox="0 0 602.2582857142856 1024"
-                className="services-icon17"
+                className="services-icon07"
               >
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
               </svg>
@@ -163,7 +108,7 @@ const Services = (props) => {
         </header>
         <div className="services-hero-content">
           <div className="services-header-container">
-            <div className="services-header01">
+            <div className="services-header">
               <h1 className="services-heading">
                 <span>
                   Face-to-face with
@@ -208,7 +153,7 @@ const Services = (props) => {
         </h2>
       </section>
       <section className="services-slider">
-        <div className="services-header02">
+        <div className="services-header01">
           <h2 className="services-heading01">
             <span>
               From nothing to
@@ -257,13 +202,13 @@ const Services = (props) => {
       <section className="services-statistics">
         <div className="services-content">
           <div className="services-stat">
-            <h3 className="services-header03">Ultra-fast turnaround</h3>
+            <h3 className="services-header02">Ultra-fast turnaround</h3>
           </div>
           <div className="services-stat1">
-            <h3 className="services-header04">Stress-free experience</h3>
+            <h3 className="services-header03">Stress-free experience</h3>
           </div>
           <div className="services-stat2">
-            <h3 className="services-header05">Trusted service</h3>
+            <h3 className="services-header04">Trusted service</h3>
           </div>
         </div>
       </section>
@@ -276,10 +221,10 @@ const Services = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="services-image03"
+                    className="services-image01"
                   />
                   <div className="services-content01">
-                    <div className="services-header06">
+                    <div className="services-header05">
                       <h3 className="services-heading02">Metaverse</h3>
                       <p className="services-caption03">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -294,7 +239,7 @@ const Services = (props) => {
                     </div>
                     <div className="services-more">
                       <span className="services-caption04">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="services-icon19">
+                      <svg viewBox="0 0 1024 1024" className="services-icon09">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -304,10 +249,10 @@ const Services = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="services-image04"
+                    className="services-image02"
                   />
                   <div className="services-content02">
-                    <div className="services-header07">
+                    <div className="services-header06">
                       <h3 className="services-heading03">Ecosystems</h3>
                       <p className="services-caption05">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -322,7 +267,7 @@ const Services = (props) => {
                     </div>
                     <div className="services-more1">
                       <span className="services-caption06">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="services-icon21">
+                      <svg viewBox="0 0 1024 1024" className="services-icon11">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -332,10 +277,10 @@ const Services = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="services-image05"
+                    className="services-image03"
                   />
                   <div className="services-content03">
-                    <div className="services-header08">
+                    <div className="services-header07">
                       <h3 className="services-heading04">Development</h3>
                       <p className="services-caption07">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -350,7 +295,7 @@ const Services = (props) => {
                     </div>
                     <div className="services-more2">
                       <span className="services-caption08">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="services-icon23">
+                      <svg viewBox="0 0 1024 1024" className="services-icon13">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -360,10 +305,10 @@ const Services = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="services-image06"
+                    className="services-image04"
                   />
                   <div className="services-content04">
-                    <div className="services-header09">
+                    <div className="services-header08">
                       <h3 className="services-heading05">Integration</h3>
                       <p className="services-caption09">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -378,7 +323,7 @@ const Services = (props) => {
                     </div>
                     <div className="services-more3">
                       <span className="services-caption10">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="services-icon25">
+                      <svg viewBox="0 0 1024 1024" className="services-icon15">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -391,7 +336,7 @@ const Services = (props) => {
                 data-role="previous-banner-button"
                 className="services-previous blaze-prev button"
               >
-                <svg viewBox="0 0 1024 1024" className="services-icon27">
+                <svg viewBox="0 0 1024 1024" className="services-icon17">
                   <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
                 </svg>
               </button>
@@ -399,7 +344,7 @@ const Services = (props) => {
                 data-role="next-banner-button"
                 className="services-next blaze-next button"
               >
-                <svg viewBox="0 0 1024 1024" className="services-icon29">
+                <svg viewBox="0 0 1024 1024" className="services-icon19">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>
               </button>
@@ -407,7 +352,7 @@ const Services = (props) => {
           </div>
         </div>
         <div>
-          <div className="services-container05">
+          <div className="services-container4">
             <Script
               html={`<script>
 const el = document.querySelector('.blaze-slider')
@@ -427,7 +372,7 @@ new BlazeSlider(el, {
       </section>
       <section className="services-get-started">
         <div className="services-header-container1">
-          <div className="services-header10">
+          <div className="services-header09">
             <h2 className="services-heading06">
               Moview is the home to our Video Production company where we create
               stunning visual content to ensure brands stand out and get
@@ -453,7 +398,7 @@ new BlazeSlider(el, {
         <img
           alt="image"
           src="https://i.imgur.com/S0nMdGY.jpg"
-          className="services-image07"
+          className="services-image05"
         />
       </section>
       <h2 className="services-heading07">
@@ -537,8 +482,8 @@ new BlazeSlider(el, {
       </section>
       <section className="services-growth">
         <div className="services-content06">
-          <div className="services-header11">
-            <div className="services-header12">
+          <div className="services-header10">
+            <div className="services-header11">
               <h2 className="services-heading08">
                 We guarantee you&apos;ll love your video or your money back*.
               </h2>
@@ -575,7 +520,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://i.imgur.com/0Lpv0Xc.jpg"
-                  className="services-icon31"
+                  className="services-icon21"
                 />
                 <span className="services-name">Tea Visan</span>
               </div>
@@ -599,7 +544,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/ubsnns9.jpg"
-            className="services-image08"
+            className="services-image06"
           />
         </div>
       </section>
@@ -609,13 +554,13 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/p0gMEgQ.jpg"
-            className="services-image09"
+            className="services-image07"
           />
         </div>
         <div className="services-content08">
-          <div className="services-header13">
+          <div className="services-header12">
             <div className="services-header-container2">
-              <div className="services-header14">
+              <div className="services-header13">
                 <h2 className="services-heading09">
                   A trusted service every time.
                 </h2>
@@ -629,7 +574,7 @@ new BlazeSlider(el, {
             <div className="services-checkmarks">
               <div className="services-check">
                 <div className="services-mark">
-                  <svg viewBox="0 0 1024 1024" className="services-icon32">
+                  <svg viewBox="0 0 1024 1024" className="services-icon22">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -639,7 +584,7 @@ new BlazeSlider(el, {
               </div>
               <div className="services-check1">
                 <div className="services-mark1">
-                  <svg viewBox="0 0 1024 1024" className="services-icon34">
+                  <svg viewBox="0 0 1024 1024" className="services-icon24">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -649,7 +594,7 @@ new BlazeSlider(el, {
               </div>
               <div className="services-check2">
                 <div className="services-mark2">
-                  <svg viewBox="0 0 1024 1024" className="services-icon36">
+                  <svg viewBox="0 0 1024 1024" className="services-icon26">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -659,7 +604,7 @@ new BlazeSlider(el, {
               </div>
               <div className="services-check3">
                 <div className="services-mark3">
-                  <svg viewBox="0 0 1024 1024" className="services-icon38">
+                  <svg viewBox="0 0 1024 1024" className="services-icon28">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -701,7 +646,7 @@ new BlazeSlider(el, {
       </section>
       <section className="services-create">
         <div className="services-content10">
-          <div className="services-header15">
+          <div className="services-header14">
             <h2 className="services-heading10">
               <span>Outstanding </span>
               <span className="services-text063">visual content!</span>
@@ -725,7 +670,7 @@ new BlazeSlider(el, {
       </section>
       <section className="services-comparision">
         <div className="services-header-container3">
-          <div className="services-header16">
+          <div className="services-header15">
             <h2 className="services-heading11">
               <span>Packages we offer</span>
               <br></br>
@@ -893,7 +838,7 @@ new BlazeSlider(el, {
       </section>
       <section className="services-data">
         <div className="services-header-container4">
-          <div className="services-header17">
+          <div className="services-header16">
             <div className="services-row16">
               <h2 className="services-heading12">
                 <span>
@@ -923,17 +868,17 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="services-content11">
-          <div className="services-image10">
+          <div className="services-image08">
             <img
               alt="image"
               src="https://i.imgur.com/hjx4j7N.jpg"
-              className="services-image11"
+              className="services-image09"
             />
           </div>
           <div className="services-accordion">
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="services-header18">Our studio</h3>
+                <h3 className="services-header17">Our studio</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -950,7 +895,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="services-header19">Our prices</h3>
+                <h3 className="services-header18">Our prices</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -967,7 +912,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="services-header20">Photography</h3>
+                <h3 className="services-header19">Photography</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -984,7 +929,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="services-header21">Promotional videos</h3>
+                <h3 className="services-header20">Promotional videos</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1000,7 +945,7 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name19"></IconContainer>
             </div>
             <div>
-              <div className="services-container07">
+              <div className="services-container6">
                 <Script
                   html={`<script>
  /*
@@ -1059,7 +1004,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="services-customer">
-        <div className="services-header22"></div>
+        <div className="services-header21"></div>
         <div className="services-quotes">
           <div className="services-quote">
             <p className="services-quote1">
@@ -1132,12 +1077,12 @@ new BlazeSlider(el, {
         </div>
         <div className="services-controls1">
           <button className="services-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="services-icon40">
+            <svg viewBox="0 0 1024 1024" className="services-icon30">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
           <button className="services-next1 button">
-            <svg viewBox="0 0 1024 1024" className="services-icon42">
+            <svg viewBox="0 0 1024 1024" className="services-icon32">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
@@ -1150,7 +1095,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="services-faq">
-        <div className="services-header23">
+        <div className="services-header22">
           <h2 className="services-heading13">
             <span>Frequently asked </span>
             <span className="services-text097">questions</span>
@@ -1166,7 +1111,7 @@ new BlazeSlider(el, {
         <div className="services-content20">
           <div className="services-column">
             <div className="services-element04">
-              <h3 className="services-header24">
+              <h3 className="services-header23">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
               <p className="services-content21">
@@ -1180,7 +1125,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="services-element05">
-              <h3 className="services-header25">
+              <h3 className="services-header24">
                 Excepteur sint occaecat cupidatat non sunt in culpa qui officia
                 deserunt mollit anim id est laborum?
               </h3>
@@ -1192,7 +1137,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="services-element06">
-              <h3 className="services-header26">
+              <h3 className="services-header25">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
@@ -1207,7 +1152,7 @@ new BlazeSlider(el, {
           </div>
           <div className="services-column1">
             <div className="services-element07">
-              <h3 className="services-header27">
+              <h3 className="services-header26">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
@@ -1220,7 +1165,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="services-element08">
-              <h3 className="services-header28">
+              <h3 className="services-header27">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
               <p className="services-content25">
@@ -1234,7 +1179,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="services-element09">
-              <h3 className="services-header29">
+              <h3 className="services-header28">
                 Incididunt ut labore et dolore?
               </h3>
               <p className="services-content26">
@@ -1258,7 +1203,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
-                  className="services-image12"
+                  className="services-image10"
                 />
               </Link>
               <span className="services-text099">
@@ -1267,7 +1212,7 @@ new BlazeSlider(el, {
             </div>
             <div className="services-links">
               <div className="services-column2">
-                <span className="services-header30">Company</span>
+                <span className="services-header29">Company</span>
                 <div className="services-list">
                   <Link to="/" className="services-navlink01">
                     About
@@ -1285,7 +1230,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="services-column3">
-                <span className="services-header31">Extern</span>
+                <span className="services-header30">Extern</span>
                 <div className="services-list1">
                   <Link to="/" className="services-navlink05">
                     News
@@ -1311,7 +1256,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="services-column4">
-                <span className="services-header32">Social</span>
+                <span className="services-header31">Social</span>
                 <div className="services-list2">
                   <Link to="/" className="services-navlink12">
                     LinkedIn
@@ -1341,13 +1286,13 @@ new BlazeSlider(el, {
               data-role="scroll-top"
               className="services-link2 button"
             >
-              <img alt="image" src="/arrow.svg" className="services-image13" />
+              <img alt="image" src="/arrow.svg" className="services-image11" />
             </a>
           </div>
         </div>
       </div>
       <div>
-        <div className="services-container09">
+        <div className="services-container8">
           <Script
             html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
