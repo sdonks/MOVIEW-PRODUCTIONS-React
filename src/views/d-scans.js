@@ -33,6 +33,20 @@ const DScans = (props) => {
         />
       </Helmet>
       <Navbar></Navbar>
+      <h2 className="d-scans-heading">
+        <span>
+          We specialize in creating high fidelity interactive 3D Scans. Whether
+          you are a realtor trying to show off a property to potential customers
+          or a real estate developer trying to cover the progress of your
+          projects, we&apos;re here to help! By using drones, 360 Cameras and
+          Lidar sensors we are able to create interactive 3D scans and images.
+          Give it a try by clicking the image and dragging your mouse around it!
+        </span>
+        <br></br>
+        <span>Left click: Rotate</span>
+        <br></br>
+        <span>Right click: Move </span>
+      </h2>
       <section className="d-scans-hero">
         <header data-thq="thq-navbar" className="d-scans-navbar">
           <img
@@ -64,11 +78,11 @@ const DScans = (props) => {
                 data-role="Nav"
                 className="d-scans-nav1"
               >
-                <span className="d-scans-text">About</span>
-                <span className="d-scans-text01">Features</span>
-                <span className="d-scans-text02">Pricing</span>
-                <span className="d-scans-text03">Team</span>
-                <span className="d-scans-text04">Blog</span>
+                <span className="d-scans-text005">About</span>
+                <span className="d-scans-text006">Features</span>
+                <span className="d-scans-text007">Pricing</span>
+                <span className="d-scans-text008">Team</span>
+                <span className="d-scans-text009">Blog</span>
               </nav>
               <div className="d-scans-container02">
                 <button className="d-scans-login button">Login</button>
@@ -107,7 +121,7 @@ const DScans = (props) => {
         <div className="d-scans-hero-content">
           <div className="d-scans-header-container">
             <div className="d-scans-header">
-              <h1 className="d-scans-heading">
+              <h1 className="d-scans-heading01">
                 <span>
                   Face-to-face with
                   <span
@@ -116,7 +130,7 @@ const DScans = (props) => {
                     }}
                   />
                 </span>
-                <span className="d-scans-text06">imagination</span>
+                <span className="d-scans-text011">imagination</span>
                 <br></br>
               </h1>
             </div>
@@ -139,12 +153,12 @@ const DScans = (props) => {
       </section>
       <section className="d-scans-note">
         <h2 className="d-scans-caption01">
-          <span className="d-scans-text11">
+          <span className="d-scans-text016">
             Get noticed with &quot;Scroll Stopping&quot; Video Content!
           </span>
           <br></br>
-          <br className="d-scans-text13"></br>
-          <span className="d-scans-text14">
+          <br className="d-scans-text018"></br>
+          <span className="d-scans-text019">
             Our diverse team has created engaging content for brands all over
             the world.
           </span>
@@ -152,7 +166,7 @@ const DScans = (props) => {
       </section>
       <section className="d-scans-slider">
         <div className="d-scans-header01">
-          <h2 className="d-scans-heading01">
+          <h2 className="d-scans-heading02">
             <span>
               From nothing to
               <span
@@ -161,8 +175,8 @@ const DScans = (props) => {
                 }}
               />
             </span>
-            <span className="d-scans-text16">something</span>
-            <span className="d-scans-text17">
+            <span className="d-scans-text021">something</span>
+            <span className="d-scans-text022">
               .
               <span
                 dangerouslySetInnerHTML={{
@@ -174,12 +188,12 @@ const DScans = (props) => {
         </div>
         <div className="d-scans-selector">
           <p className="d-scans-caption02">
-            <span className="d-scans-text18">
+            <span className="d-scans-text023">
               The highest status people in human history are those that asked
               for nothing and gave everything.
             </span>
-            <br className="d-scans-text19"></br>
-            <br className="d-scans-text20"></br>
+            <br className="d-scans-text024"></br>
+            <br className="d-scans-text025"></br>
           </p>
           <div className="d-scans-slide-titles">
             <div className="slide-title">
@@ -198,17 +212,7 @@ const DScans = (props) => {
         </div>
       </section>
       <div className="d-scans-header02">
-        <div className="d-scans-row">
-          <h2 className="d-scans-heading02">
-            We specialize in creating high fidelity interactive 3D Scans.
-            Whether you are a realtor trying to show off a property to potential
-            customers or a real estate developer trying to cover the progress of
-            your projects, we&apos;re here to help! By using drones, 360 Cameras
-            and Lidar sensors we are able to create interactive 3D scans and
-            images. Give it a try by clicking the image and dragging your mouse
-            around it!Left click: RotateRight click: Move 
-          </h2>
-        </div>
+        <div className="d-scans-row"></div>
       </div>
       <section className="d-scans-slides">
         <div className="d-scans-slider1 slider blaze-slider">
@@ -408,23 +412,23 @@ new BlazeSlider(el, {
             }}
           />
         </span>
-        <span className="d-scans-text27">production process.</span>
+        <span className="d-scans-text032">production process.</span>
         <br></br>
       </h2>
       <section className="d-scans-objectives">
         <div className="d-scans-content04">
-          <span className="d-scans-text29">Objectives</span>
+          <span className="d-scans-text034">Objectives</span>
           <div className="d-scans-objectives-list">
             <div className="objective">
-              <h3 className="d-scans-text30">Dream it</h3>
-              <p className="d-scans-text31">
+              <h3 className="d-scans-text035">Dream it</h3>
+              <p className="d-scans-text036">
                 <span>
                   It all begins with an idea. Whatever it is, the way you tell
                   your story online can make all the difference to your brand
                   image and sales. We work with businesses to create the perfect
                   content for their audience to enhance their business.
                 </span>
-                <br className="d-scans-text33"></br>
+                <br className="d-scans-text038"></br>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
@@ -435,8 +439,8 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective d-scans-objective1">
-              <h3 className="d-scans-text35">Capture it</h3>
-              <p className="d-scans-text36">
+              <h3 className="d-scans-text040">Capture it</h3>
+              <p className="d-scans-text041">
                 <span>
                   Using the latest high-quality camera equipment our team will
                   deliver the smoothest production possible, giving you one less
@@ -444,7 +448,7 @@ new BlazeSlider(el, {
                   professionals will create the best possible content, on time
                   and on budget.
                 </span>
-                <br className="d-scans-text38"></br>
+                <br className="d-scans-text043"></br>
                 <br></br>
                 <span>
                   <span
@@ -456,15 +460,15 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective d-scans-objective2">
-              <h3 className="d-scans-text41">Create it</h3>
-              <p className="d-scans-text42">
+              <h3 className="d-scans-text046">Create it</h3>
+              <p className="d-scans-text047">
                 <span>
                   At our studio, we have an in-house editing team ready to work
                   on your project as soon as we finish filming. Meaning that
                   100% of projects are delivered on time, most in as little as 3
                   days.
                 </span>
-                <br className="d-scans-text44"></br>
+                <br className="d-scans-text049"></br>
                 <br></br>
                 <span>
                   <span
@@ -487,27 +491,27 @@ new BlazeSlider(el, {
               </h2>
             </div>
             <p className="d-scans-caption12">
-              <span className="d-scans-text47">
+              <span className="d-scans-text052">
                 Investing in a new video for your business can be a big
                 decision, so to give you confidence, we created our satisfaction
                 guarantee. It&apos;s simple and takes the stress away. No
                 catches, If you don&apos;t like the video and we can&apos;t
                 create a version you&apos;re happy with, you don&apos;t pay.
               </span>
-              <br className="d-scans-text48"></br>
-              <br className="d-scans-text49"></br>
-              <span className="d-scans-text50">
+              <br className="d-scans-text053"></br>
+              <br className="d-scans-text054"></br>
+              <span className="d-scans-text055">
                 *refund amount is noted on the contract.
               </span>
-              <br className="d-scans-text51"></br>
-              <br className="d-scans-text52"></br>
-              <br className="d-scans-text53"></br>
+              <br className="d-scans-text056"></br>
+              <br className="d-scans-text057"></br>
+              <br className="d-scans-text058"></br>
             </p>
           </div>
           <div className="d-scans-testimonial">
             <div className="d-scans-content06">
-              <span className="d-scans-text54">Testimonial</span>
-              <p className="d-scans-text55">
+              <span className="d-scans-text059">Testimonial</span>
+              <p className="d-scans-text060">
                 &quot;He knows all the right angles to shoot a precious moment!
                 Hard-working man, a professional artist who puts passion in his
                 work!&quot;
@@ -576,7 +580,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="d-scans-text56">
+                <span className="d-scans-text061">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
@@ -586,7 +590,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="d-scans-text57">
+                <span className="d-scans-text062">
                   Lorem ipsum dolor sit amet
                 </span>
               </div>
@@ -596,7 +600,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="d-scans-text58">
+                <span className="d-scans-text063">
                   Voluptate velit esse cillum dolore eu fugiat nulla
                 </span>
               </div>
@@ -606,7 +610,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="d-scans-text59">
+                <span className="d-scans-text064">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                 </span>
               </div>
@@ -614,8 +618,8 @@ new BlazeSlider(el, {
           </div>
           <div className="d-scans-testimonial1">
             <div className="d-scans-content08">
-              <span className="d-scans-text60">Testimonial</span>
-              <p className="d-scans-text61">
+              <span className="d-scans-text065">Testimonial</span>
+              <p className="d-scans-text066">
                 &quot;A pleasant collaboration from all points of view! Positive
                 work attitude and creativity are the strong points! It has
                 everything that is technically necessary  for a quality
@@ -647,7 +651,7 @@ new BlazeSlider(el, {
           <div className="d-scans-header12">
             <h2 className="d-scans-heading11">
               <span>Outstanding </span>
-              <span className="d-scans-text63">visual content!</span>
+              <span className="d-scans-text068">visual content!</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -682,19 +686,19 @@ new BlazeSlider(el, {
         <div className="d-scans-table">
           <div className="d-scans-row01">
             <div className="d-scans-headers">
-              <span className="d-scans-text71">Placeholder</span>
+              <span className="d-scans-text076">Placeholder</span>
             </div>
             <div className="d-scans-plans">
               <div className="d-scans-row02">
-                <span className="d-scans-text72">TOGHTR</span>
-                <span className="d-scans-text73">AGENCY</span>
-                <span className="d-scans-text74">FRELLANCE</span>
+                <span className="d-scans-text077">TOGHTR</span>
+                <span className="d-scans-text078">AGENCY</span>
+                <span className="d-scans-text079">FRELLANCE</span>
               </div>
             </div>
           </div>
           <div className="d-scans-row03">
             <div className="d-scans-headers1">
-              <span className="d-scans-text75">
+              <span className="d-scans-text080">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
@@ -714,7 +718,9 @@ new BlazeSlider(el, {
           </div>
           <div className="d-scans-row05">
             <div className="d-scans-headers2">
-              <span className="d-scans-text76">Lorem ipsum dolor sit amet</span>
+              <span className="d-scans-text081">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="d-scans-plans2">
               <div className="d-scans-row06">
@@ -732,14 +738,14 @@ new BlazeSlider(el, {
           </div>
           <div className="d-scans-row07">
             <div className="d-scans-headers3">
-              <span className="d-scans-text77">
+              <span className="d-scans-text082">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="d-scans-plans3">
               <div className="d-scans-row08">
                 <div className="value">
-                  <span className="d-scans-text78">Custom</span>
+                  <span className="d-scans-text083">Custom</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -752,17 +758,17 @@ new BlazeSlider(el, {
           </div>
           <div className="d-scans-row09">
             <div className="d-scans-headers4">
-              <span className="d-scans-text79">
+              <span className="d-scans-text084">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="d-scans-plans4">
               <div className="d-scans-row10">
                 <div className="value">
-                  <span className="d-scans-text80">Unlimited</span>
+                  <span className="d-scans-text085">Unlimited</span>
                 </div>
                 <div className="value">
-                  <span className="d-scans-text81">Limited</span>
+                  <span className="d-scans-text086">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -772,7 +778,9 @@ new BlazeSlider(el, {
           </div>
           <div className="d-scans-row11">
             <div className="d-scans-headers5">
-              <span className="d-scans-text82">Lorem ipsum dolor sit amet</span>
+              <span className="d-scans-text087">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="d-scans-plans5">
               <div className="d-scans-row12">
@@ -783,14 +791,16 @@ new BlazeSlider(el, {
                   <Line></Line>
                 </div>
                 <div className="value">
-                  <span className="d-scans-text83">Limited</span>
+                  <span className="d-scans-text088">Limited</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="d-scans-row13">
             <div className="d-scans-headers6">
-              <span className="d-scans-text84">Lorem ipsum dolor sit amet</span>
+              <span className="d-scans-text089">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="d-scans-plans6">
               <div className="d-scans-row14">
@@ -808,7 +818,9 @@ new BlazeSlider(el, {
           </div>
           <div className="d-scans-row15">
             <div className="d-scans-headers7">
-              <span className="d-scans-text85">Lorem ipsum dolor sit amet</span>
+              <span className="d-scans-text090">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="d-scans-plans7">
               <div className="d-scans-row16">
@@ -816,7 +828,7 @@ new BlazeSlider(el, {
                   <Check></Check>
                 </div>
                 <div className="value">
-                  <span className="d-scans-text86">Limited</span>
+                  <span className="d-scans-text091">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -1058,7 +1070,7 @@ new BlazeSlider(el, {
         <div className="d-scans-header19">
           <h2 className="d-scans-heading13">
             <span>Frequently asked </span>
-            <span className="d-scans-text91">questions</span>
+            <span className="d-scans-text096">questions</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -1166,7 +1178,7 @@ new BlazeSlider(el, {
                   className="d-scans-image10"
                 />
               </Link>
-              <span className="d-scans-text93">
+              <span className="d-scans-text098">
                 Available world-wide, at any time.
               </span>
             </div>
@@ -1184,7 +1196,7 @@ new BlazeSlider(el, {
                     How
                   </Link>
                   <Link to="/" className="d-scans-navlink04">
-                    <span className="d-scans-text94">Why</span>
+                    <span className="d-scans-text099">Why</span>
                     <br></br>
                   </Link>
                 </div>
@@ -1238,7 +1250,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="d-scans-bottom">
-            <span className="d-scans-text96">
+            <span className="d-scans-text101">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
             <a
