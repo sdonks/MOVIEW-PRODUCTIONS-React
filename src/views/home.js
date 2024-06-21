@@ -692,12 +692,113 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
-      <section className="home-create">
+      <section className="home-experience1">
+        <div className="home-images2">
+          <div className="home-square2"></div>
+        </div>
         <div className="home-content10">
           <div className="home-header16">
-            <h2 className="home-heading11">
+            <div className="home-header-container3">
+              <div className="home-header17">
+                <h2 className="home-heading11">
+                  Versatile Video Production for Diverse Business Needs.
+                </h2>
+              </div>
+              <p className="home-caption15">
+                We make videos for all sorts of businesses for all sorts of
+                reasons, from sharing a successful customer story, to an
+                authentic employee experience or a new product development. We
+                have filmed for clients in their corporate offices, homes,
+                factories, events and others.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </p>
+            </div>
+            <div className="home-checkmarks1">
+              <div className="home-check4">
+                <div className="home-mark4">
+                  <svg viewBox="0 0 1024 1024" className="home-icon31">
+                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                  </svg>
+                </div>
+                <span className="home-text066">
+                  Duis aute irure dolor in reprehenderit
+                </span>
+              </div>
+              <div className="home-check5">
+                <div className="home-mark5">
+                  <svg viewBox="0 0 1024 1024" className="home-icon33">
+                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                  </svg>
+                </div>
+                <span className="home-text067">Lorem ipsum dolor sit amet</span>
+              </div>
+              <div className="home-check6">
+                <div className="home-mark6">
+                  <svg viewBox="0 0 1024 1024" className="home-icon35">
+                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                  </svg>
+                </div>
+                <span className="home-text068">
+                  Voluptate velit esse cillum dolore eu fugiat nulla
+                </span>
+              </div>
+              <div className="home-check7">
+                <div className="home-mark7">
+                  <svg viewBox="0 0 1024 1024" className="home-icon37">
+                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                  </svg>
+                </div>
+                <span className="home-text069">
+                  Excepteur sint occaecat cupidatat non proident sunt in culpa
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="home-testimonial2">
+            <div className="home-content11">
+              <span className="home-text070">Testimonial</span>
+              <p className="home-text071">
+                &quot;A pleasant collaboration from all points of view! Positive
+                work attitude and creativity are the strong points! It has
+                everything that is technically necessary  for a quality
+                result!&quot;
+              </p>
+            </div>
+            <div className="home-information2">
+              <div className="home-author2">
+                <span className="home-name2">George </span>
+              </div>
+              <a
+                href="https://www.atria.ro/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link2"
+              >
+                <img
+                  alt="image"
+                  src="data:image/png;base64,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"
+                  className="home-from2"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <img
+          alt="image"
+          src="https://i.imgur.com/mgVPFzx.jpeg"
+          className="home-image11"
+        />
+      </section>
+      <section className="home-create">
+        <div className="home-content12">
+          <div className="home-header18">
+            <h2 className="home-heading12">
               <span>Outstanding </span>
-              <span className="home-text067">visual content!</span>
+              <span className="home-text073">visual content!</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -717,14 +818,14 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="home-comparision">
-        <div className="home-header-container3">
-          <div className="home-header17">
-            <h2 className="home-heading12">
+        <div className="home-header-container4">
+          <div className="home-header19">
+            <h2 className="home-heading13">
               <span>Packages we offer</span>
               <br></br>
             </h2>
           </div>
-          <p className="home-caption15">
+          <p className="home-caption16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
             eiusmod.
           </p>
@@ -732,19 +833,19 @@ new BlazeSlider(el, {
         <div className="home-table">
           <div className="home-row">
             <div className="home-headers">
-              <span className="home-text075">Placeholder</span>
+              <span className="home-text081">Placeholder</span>
             </div>
             <div className="home-plans">
               <div className="home-row01">
-                <span className="home-text076">TOGHTR</span>
-                <span className="home-text077">AGENCY</span>
-                <span className="home-text078">FRELLANCE</span>
+                <span className="home-text082">TOGHTR</span>
+                <span className="home-text083">AGENCY</span>
+                <span className="home-text084">FRELLANCE</span>
               </div>
             </div>
           </div>
           <div className="home-row02">
             <div className="home-headers1">
-              <span className="home-text079">
+              <span className="home-text085">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
@@ -764,7 +865,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row04">
             <div className="home-headers2">
-              <span className="home-text080">Lorem ipsum dolor sit amet</span>
+              <span className="home-text086">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans2">
               <div className="home-row05">
@@ -782,14 +883,14 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row06">
             <div className="home-headers3">
-              <span className="home-text081">
+              <span className="home-text087">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="home-plans3">
               <div className="home-row07">
                 <div className="value">
-                  <span className="home-text082">Custom</span>
+                  <span className="home-text088">Custom</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -802,17 +903,17 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row08">
             <div className="home-headers4">
-              <span className="home-text083">
+              <span className="home-text089">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="home-plans4">
               <div className="home-row09">
                 <div className="value">
-                  <span className="home-text084">Unlimited</span>
+                  <span className="home-text090">Unlimited</span>
                 </div>
                 <div className="value">
-                  <span className="home-text085">Limited</span>
+                  <span className="home-text091">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -822,7 +923,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row10">
             <div className="home-headers5">
-              <span className="home-text086">Lorem ipsum dolor sit amet</span>
+              <span className="home-text092">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans5">
               <div className="home-row11">
@@ -833,14 +934,14 @@ new BlazeSlider(el, {
                   <Line></Line>
                 </div>
                 <div className="value">
-                  <span className="home-text087">Limited</span>
+                  <span className="home-text093">Limited</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="home-row12">
             <div className="home-headers6">
-              <span className="home-text088">Lorem ipsum dolor sit amet</span>
+              <span className="home-text094">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans6">
               <div className="home-row13">
@@ -858,7 +959,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row14">
             <div className="home-headers7">
-              <span className="home-text089">Lorem ipsum dolor sit amet</span>
+              <span className="home-text095">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans7">
               <div className="home-row15">
@@ -866,7 +967,7 @@ new BlazeSlider(el, {
                   <Check></Check>
                 </div>
                 <div className="value">
-                  <span className="home-text090">Limited</span>
+                  <span className="home-text096">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -877,48 +978,18 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="home-data">
-        <div className="home-header-container4">
-          <div className="home-header18">
-            <div className="home-row16">
-              <h2 className="home-heading13">
-                <span>
-                  Versatile Video Production for Diverse Business Needs.
-                </span>
-                <br></br>
-              </h2>
-            </div>
-          </div>
-          <p className="home-caption16">
-            <span className="home-text093">
-              We make videos for all sorts of businesses for all sorts of
-              reasons, from sharing a successful customer story, to an authentic
-              employee experience or a new product development. We have filmed
-              for clients in their corporate offices, homes, factories, events
-              and others.
-            </span>
-            <br className="home-text094"></br>
-            <br className="home-text095"></br>
-            <span className="home-text096">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </p>
-        </div>
-        <div className="home-content11">
-          <div className="home-image11">
+        <div className="home-content13">
+          <div className="home-image12">
             <img
               alt="image"
               src="https://i.imgur.com/hjx4j7N.jpg"
-              className="home-image12"
+              className="home-image13"
             />
           </div>
           <div className="home-accordion">
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="home-header19">Our studio</h3>
+                <h3 className="home-header20">Our studio</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   With 2,200 square feet of space, we have everything you need
                   to bring your video production to life. Our studio features a
@@ -931,7 +1002,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="home-header20">Our prices</h3>
+                <h3 className="home-header21">Our prices</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Our prices are variable depending on the project. We also
                   offer fixed price monthly services if needed. Contact us for a
@@ -942,7 +1013,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="home-header21">Photography</h3>
+                <h3 className="home-header22">Photography</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   <span>
                     We also offer Photography services for those looking for a
@@ -958,7 +1029,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="home-header22">Promotional videos</h3>
+                <h3 className="home-header23">Promotional videos</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   <span>
                     It’s a fact that high-quality video content increases
@@ -1038,7 +1109,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="home-customer">
-        <div className="home-header23"></div>
+        <div className="home-header24"></div>
         <div className="home-quotes">
           <div className="home-quote">
             <p className="home-quote1">
@@ -1052,8 +1123,8 @@ new BlazeSlider(el, {
                 }}
               />
             </p>
-            <div className="home-author2">
-              <span className="home-name2">Joanna Smith</span>
+            <div className="home-author3">
+              <span className="home-name3">Joanna Smith</span>
               <span className="home-location">Briville</span>
             </div>
           </div>
@@ -1069,8 +1140,8 @@ new BlazeSlider(el, {
                 }}
               />
             </p>
-            <div className="home-author3">
-              <span className="home-name3">Joanna Smith</span>
+            <div className="home-author4">
+              <span className="home-name4">Joanna Smith</span>
               <span className="home-location1">Briville</span>
             </div>
           </div>
@@ -1086,8 +1157,8 @@ new BlazeSlider(el, {
                 }}
               />
             </p>
-            <div className="home-author4">
-              <span className="home-name4">Joanna Smith</span>
+            <div className="home-author5">
+              <span className="home-name5">Joanna Smith</span>
               <span className="home-location2">Briville</span>
             </div>
           </div>
@@ -1103,20 +1174,20 @@ new BlazeSlider(el, {
                 }}
               />
             </p>
-            <div className="home-author5">
-              <span className="home-name5">Joanna Smith</span>
+            <div className="home-author6">
+              <span className="home-name6">Joanna Smith</span>
               <span className="home-location3">Briville</span>
             </div>
           </div>
         </div>
         <div className="home-controls1">
           <button className="home-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon31">
+            <svg viewBox="0 0 1024 1024" className="home-icon39">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
           <button className="home-next1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon33">
+            <svg viewBox="0 0 1024 1024" className="home-icon41">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
@@ -1129,7 +1200,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="home-faq">
-        <div className="home-header24">
+        <div className="home-header25">
           <h2 className="home-heading14">
             <span>Frequently asked </span>
             <span className="home-text107">questions</span>
@@ -1142,13 +1213,13 @@ new BlazeSlider(el, {
             </span>
           </h2>
         </div>
-        <div className="home-content20">
+        <div className="home-content22">
           <div className="home-column">
             <div className="home-element04">
-              <h3 className="home-header25">
+              <h3 className="home-header26">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
-              <p className="home-content21">
+              <p className="home-content23">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <span
@@ -1159,11 +1230,11 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="home-element05">
-              <h3 className="home-header26">
+              <h3 className="home-header27">
                 Excepteur sint occaecat cupidatat non sunt in culpa qui officia
                 deserunt mollit anim id est laborum?
               </h3>
-              <p className="home-content22">
+              <p className="home-content24">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae ab illo inventore veritatis et quasi architecto beatae
@@ -1171,11 +1242,11 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="home-element06">
-              <h3 className="home-header27">
+              <h3 className="home-header28">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
-              <p className="home-content23">
+              <p className="home-content25">
                 Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                 commodo consequat. Duis aute irure dolor in reprehenderit in
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -1186,11 +1257,11 @@ new BlazeSlider(el, {
           </div>
           <div className="home-column1">
             <div className="home-element07">
-              <h3 className="home-header28">
+              <h3 className="home-header29">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
-              <p className="home-content24">
+              <p className="home-content26">
                 Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                 commodo consequat. Duis aute irure dolor in reprehenderit in
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -1199,10 +1270,10 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="home-element08">
-              <h3 className="home-header29">
+              <h3 className="home-header30">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
-              <p className="home-content25">
+              <p className="home-content27">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <span
@@ -1213,8 +1284,8 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="home-element09">
-              <h3 className="home-header30">Incididunt ut labore et dolore?</h3>
-              <p className="home-content26">
+              <h3 className="home-header31">Incididunt ut labore et dolore?</h3>
+              <p className="home-content28">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <span
@@ -1228,14 +1299,14 @@ new BlazeSlider(el, {
         </div>
       </section>
       <div className="home-footer">
-        <div className="home-content27">
+        <div className="home-content29">
           <div className="home-main">
             <div className="home-branding">
               <Link to="/" className="home-navlink01">
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
-                  className="home-image13"
+                  className="home-image14"
                 />
               </Link>
               <span className="home-text109">
@@ -1244,7 +1315,7 @@ new BlazeSlider(el, {
             </div>
             <div className="home-links">
               <div className="home-column2">
-                <span className="home-header31">Company</span>
+                <span className="home-header32">Company</span>
                 <div className="home-list">
                   <Link to="/" className="home-navlink02">
                     About
@@ -1262,7 +1333,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="home-column3">
-                <span className="home-header32">Extern</span>
+                <span className="home-header33">Extern</span>
                 <div className="home-list1">
                   <Link to="/" className="home-navlink06">
                     News
@@ -1288,7 +1359,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="home-column4">
-                <span className="home-header33">Social</span>
+                <span className="home-header34">Social</span>
                 <div className="home-list2">
                   <Link to="/" className="home-navlink13">
                     LinkedIn
@@ -1316,9 +1387,9 @@ new BlazeSlider(el, {
             <a
               href="#header"
               data-role="scroll-top"
-              className="home-link2 button"
+              className="home-link3 button"
             >
-              <img alt="image" src="/arrow.svg" className="home-image14" />
+              <img alt="image" src="/arrow.svg" className="home-image15" />
             </a>
           </div>
         </div>
