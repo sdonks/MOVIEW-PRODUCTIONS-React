@@ -504,10 +504,10 @@ new BlazeSlider(el, {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="home-container08">
               <div className="home-container09">
                 <Script
-                  html={`<iframe src="https://lumalabs.ai/embed/d2d2badd-8bdd-4874-84f7-9df2aae27f29?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="668" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>`}
+                  html={`<iframe src="https://lumalabs.ai/embed/d2d2badd-8bdd-4874-84f7-9df2aae27f29?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="668" height="700" frameborder="0" title="luma embed" style="border: none;"></iframe>`}
                 ></Script>
               </div>
             </div>
