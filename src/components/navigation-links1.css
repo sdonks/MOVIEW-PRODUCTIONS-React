@@ -16,6 +16,7 @@
 }
 .navigation-links1-navlink2 {
   color: #ffffff;
+  display: none;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
