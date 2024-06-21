@@ -12,7 +12,7 @@ import Portfolio2 from './views/portfolio-2'
 import Contact from './views/contact'
 import Projects from './views/projects'
 import Home from './views/home'
-import Services from './views/services'
+import DScans from './views/d-scans'
 import HomeTesting from './views/home-testing'
 import NotFound from './views/not-found'
 
@@ -24,7 +24,7 @@ const App = () => {
         <Route component={Contact} exact path="/contact" />
         <Route component={Projects} exact path="/projects" />
         <Route component={Home} exact path="/" />
-        <Route component={Services} exact path="/services" />
+        <Route component={DScans} exact path="/d-scans" />
         <Route component={HomeTesting} exact path="/home-testing" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />

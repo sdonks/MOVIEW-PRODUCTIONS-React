@@ -14,7 +14,7 @@ const NavigationLinks1 = (props) => {
       <Link to="/projects" className="navigation-links1-navlink1">
         {props.text1}
       </Link>
-      <Link to="/services" className="navigation-links1-navlink2">
+      <Link to="/d-scans" className="navigation-links1-navlink2">
         {props.text2}
       </Link>
       <Link to="/contact" className="navigation-links1-navlink3">
@@ -29,7 +29,7 @@ NavigationLinks1.defaultProps = {
   text: 'Home',
   text3: 'Contact',
   rootClassName: '',
-  text2: 'Services',
+  text2: '3D Scans',
 }
 
 NavigationLinks1.propTypes = {
